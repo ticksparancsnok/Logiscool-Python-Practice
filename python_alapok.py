@@ -9,14 +9,14 @@ def input_output(): # Függvény definiálása
     print("A változó " + var1) # konzolra kinyomtatás szöveg összefűzéssel
     print("A változó" , var1) # konzolra kinyomtatás külön tagokként (elválasztó " ")
 
-def io_adv():
+def io_return():
     a = input("Kérek egy inputot! ")
     return a # a függvény térjen vissza a változó értékével
 
 def basic_op():
     a = int(input("Kérek egy inputot! ")) # a megadott változót számként kezelje
-    b = int(io_adv())
-    c = int(io_adv())
+    b = int(io_return())
+    c = int(io_return())
     print("A számok összege", a+b+c) # kiírja a számok összegét
     szorzat = a*b*c
     print("A számok szorzata", szorzat) # kiírja a számok szorzatát
@@ -51,19 +51,10 @@ szöveg műveletek
     split('')
 """
 """
-print paraméterek sep, end
-listák
-tuple
-bitwise
 változó típuskonvertálás
 for while loopok
 if elif else elágazás
 logikai operátorok and, or, not, demorgan azonosságok
-file műveletek
-yield break continue return
-mátrix műveletek
-dictionaries
-try exept
 """
 
 

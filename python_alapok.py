@@ -140,7 +140,7 @@ def tipus_con_bool():
 
 
 """
-változó típuskonvertálás
+Listák, mátrixok
 logikai operátorok and, or, not, demorgan azonosságok
 """
 

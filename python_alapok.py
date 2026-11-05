@@ -3,7 +3,7 @@
 Többsoros
 komment
 """
-import math
+
 
 
 def input_output(): # Függvény definiálása
@@ -53,7 +53,7 @@ szöveg műveletek
     split('')
 """
 
-def while_ism(): # Printeljük a számokat 1-10 között while loop segítségével
+def while_loop(): # Printeljük a számokat 1-10 között while loop segítségével
     i = 1 # Létrehozzuk az indexet
     while i <= 10: # A while loop addig ismétel amíg a benne lévő feltétel igaz.
         print(i)
@@ -71,11 +71,11 @@ def while_ism(): # Printeljük a számokat 1-10 között while loop segítségé
         if k == 11:
             break
 
-def for_ism(): # Printeljük a számokat 100-1 között 7-esével
+def for_loop(): # Printeljük a számokat 100-1 között 7-esével
     for i in range(100,0,-7): # i -> index változó; range ->(100-tól, 1-ig, -7-lépéssel)
         print(i)
 
-def elagazas():
+def branches():
     a = int(input("Kérek egy számot! \n"))
     if a > 0: # Ha a feltétel igaz
         print("A szám pozítív")
@@ -89,7 +89,7 @@ def elagazas():
     else: # ha egyik fentebbi feltétel sem igaz
         print("A szám negatív")
 
-def tipus_con_szam():
+def tipus_con_num():
     a = 400 # változó létrehozása számként
     print(a)
     print(type(a)) # kiprintelem a típust
@@ -105,7 +105,7 @@ def tipus_con_szam():
     print(b)
     print(type(b))
 
-def tipus_con_szoveg():
+def tipus_con_string():
     a = str(75368) 
     print(a)
     print(type(a))
@@ -131,18 +131,4 @@ def tipus_con_bool():
     print(b)
     c = bool(c)
     print(c)
-
-
-
-
-
-
-
-
-"""
-Listák, mátrixok
-logikai operátorok and, or, not, demorgan azonosságok
-"""
-
-
 

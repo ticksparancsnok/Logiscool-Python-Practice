@@ -6,4 +6,6 @@ import python_pro as pp
 
 #pa.input_output() #Függvény hívása a könvtárból
 
-pa.tipus_con_bool()
+
+pk.add_to_list(int(input("Kérek egy kezdő számot: ")),int(input("Kérek egy vég számot: ")))
+pk.list_operations()

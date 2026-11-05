@@ -54,4 +54,27 @@ def list_operations():
     print(list_a[0:-1:2])
     print(list_a[::-1])
     print(list_a[::-2])
-    
+    # Miscellanious:
+    print(len(list_a)) # lista hosszának megadása
+
+
+def tuple_things():
+    # Tuple - Olyan speciális lista amely értékeit nem lehet módosítani létrehozás után
+    tuple_minta = ("Alma","Banán","Citrom")
+    print(tuple_minta)
+
+def dictionary():
+    dict_minta = {"name" : "John", "age(yrs)" : 36, "Height(cm)" : 145, "Weight(kg)" : 57}
+    print(dict_minta.get("age(yrs)", "Nincs ilyen adat."))
+
+def matrices():
+    # [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    matrix_a = []
+    rows = int(input("Mennyi sor legyen? "))
+    for i in range(rows):
+        matrix_a.append([])
+    cols = int(input("Mennyi oszlop legyen? "))
+    for row in matrix_a:
+        for j in range(cols):
+            row.append(0)
+    print(matrix_a)
